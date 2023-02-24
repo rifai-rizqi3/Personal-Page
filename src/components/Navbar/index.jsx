@@ -71,14 +71,16 @@ function Navbar() {
               id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
+                position: 'right',
                 vertical: 'bottom',
-                horizontal: 'left',
+                horizontal: 'right',
                 color: 'black',
               }}
               keepMounted
               transformOrigin={{
+                position: 'right',
                 vertical: 'top',
-                horizontal: 'left',
+                horizontal: 'right',
                 color: 'black',
               }}
               open={Boolean(anchorElNav)}
